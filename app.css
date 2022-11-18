@@ -1,0 +1,181 @@
+body
+{
+    background: #c287192e;
+    margin: 5% 2%;
+
+    
+}
+
+html
+{
+    scroll-behavior: smooth
+}
+
+nav
+{
+    font-size: 1.5rem;
+    font-weight: 100;
+    background-color: rgba(119, 117, 183, 0.9)
+}
+
+
+
+#mainNavbar .navbar-brand
+{
+    color: #ea1cbd;
+    font-weight: 900;
+    text-shadow: 2px 2px #65595a;
+
+
+}
+
+
+#mainNavbar .navbar-brand:hover
+{
+    border: 1px solid red;
+
+}
+
+#mainNavbar .nav-link
+{
+    color: rgb(188, 55, 188);
+    padding-bottom: 0;
+    font-weight: 900;
+
+
+}
+
+#mainNavbar .nav-link:hover
+{
+    color: #ea1c2c;
+    text-decoration: underline wavy blue 3px;
+}
+
+span
+{
+    color: #835d13;
+    margin: 0.5%;
+
+
+}
+
+h1
+{
+    font-weight: 300;
+    font-size: 3.5rem;
+    font-family: 'Kalam', cursive;
+    color: #FD841F;
+
+}
+
+h1:hover
+{
+    text-shadow: 2px 2px #780713;
+}
+
+h2
+{
+    color: #fa2234b3;
+    font-weight: 100;
+    font-size: 2.5rem;
+    font-family: 'Kalam', cursive;
+    margin-top: 7.5%;
+}
+
+.lead
+{
+    color: #c6245d;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.75;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+@media (max-width:1200px)
+{
+    h1
+    {
+        font-size: 2.4rem;
+        font-weight: 100;
+        line-height: 1;
+    }
+
+    .lead
+    {
+        font-weight: 200;
+        font-size: 1.25rem;
+        line-height: 1.25;
+    }
+
+    h2
+    {
+
+        font-weight: 100;
+        font-size: 2rem;
+
+    }
+}
+
+
+
+
+
+nav.scrolled
+{
+    background: rgba(222, 192, 222, 0.9);
+    transition: background 500ms;
+}
+
+
+
+
+img
+{
+    border-radius: 5%;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.1s;
+    transition-property: transform;
+}
+
+img:hover,
+img:focus,
+img:active
+{
+    transform: scale(1.05);
+}
+
+h1:nth-child(2)
+{
+    color: #780713;
+}
+
+h1:nth-child(3)
+{
+    font-family: 'Shrikhand', cursive;
+    color: #3D087B;
+}
+
+h1:nth-child(4)
+{
+    font-family: 'Meera Inimai', sans-serif;
+    color: #FF0000;
+}
+
+h1:nth-child(5)
+{
+    font-family: 'Atma', cursive;
+}
+
+hr
+{
+    border: dotted 6px;
+    color: #B7C4CF;
+    border-bottom: none;
+    width: 15%;
+}
