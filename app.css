@@ -3,7 +3,7 @@ body
     background: #c287192e;
     margin: 5% 2%;
 
-    
+
 }
 
 html
@@ -48,7 +48,7 @@ nav
 #mainNavbar .nav-link:hover
 {
     color: #ea1c2c;
-    text-decoration: underline wavy blue 3px;
+    border: 1px solid blue;
 }
 
 span
@@ -113,7 +113,15 @@ h2
 
         font-weight: 100;
         font-size: 1rem;
+        margin-top: 3%;
 
+
+    }
+
+    hr
+    {
+        margin-top: 1.5%;
+        margin-bottom: 8%;
     }
 }
 
@@ -178,4 +186,5 @@ hr
     color: #B7C4CF;
     border-bottom: none;
     width: 15%;
+
 }
